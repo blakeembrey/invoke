@@ -18,7 +18,7 @@ npm install util-invoke --save
 ```javascript
 var children = [1, 2, 3, true];
 
-children.map(invoke('toString')); //=> ['1', '2', '3', 'true']
+children.map(invoke('toString', 10)); //=> ['1', '2', '3', 'true']
 ```
 
 ## License
