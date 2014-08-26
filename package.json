@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/blakeembrey/invoke",
   "devDependencies": {
+    "chai": "^1.9.1",
     "istanbul": "^0.3.0",
     "mocha": "^1.21.4"
   }

@@ -1,14 +1,11 @@
 /* global describe, it */
 var invoke = require('./');
-var assert = require('assert');
+var expect = require('chai').expect;
 
 describe('invoke', function () {
   it('should invoke the method', function () {
-    var children = [1, 2, 3, true];
+    var result = [1, 2, 3, true].map(invoke('toString', 10));
 
-    assert.deepEqual(
-      children.map(invoke('toString', 10)),
-      ['1', '2', '3', 'true']
-    );
+    expect(result).to.deep.equal(['1', '2', '3', 'true']);
   });
 });
