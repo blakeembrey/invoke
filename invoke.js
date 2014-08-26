@@ -9,7 +9,7 @@ var __slice = Array.prototype.slice;
 module.exports = function (method /*, ...args */) {
   var args = __slice.call(arguments, 1);
 
-  return function (obj /*, ..args */) {
+  return function (obj /*, ...args */) {
     return obj[method].apply(obj, args.concat(__slice.call(arguments, 1)));
   };
 };
