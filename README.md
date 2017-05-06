@@ -3,7 +3,7 @@
 [![NPM version][npm-image]][npm-url]
 [![Build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
-[![Gittip][gittip-image]][gittip-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/invoke.svg)](https://greenkeeper.io/)
 
 Functional utility for creating a function that will invoke the same method on every passed in object.
 
